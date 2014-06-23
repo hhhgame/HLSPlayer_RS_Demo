@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<xex>
+  <!-- No mapping to the optical disc drive -->
+  <privilege id="2"/>
+  <!-- Forces suppression of System Notifications when a controller is disconnected -->
+  <privilege id="5"/>
+  <!-- Insecure sockets -->
+  <privilege id="6"/>
+  <!-- The title is allowed to set video context information -->
+  <privilege id="8"/>
+  <!-- Arbitrary string rich presence -->
+  <privilege id="36"/>
+  <!-- Supports Deep Link -->
+  <privilege id="41"/>
+  <!-- Supports Launch Data Refresh -->
+  <privilege id="44"/>
+  <!-- Support for local only sockets -->
+  <privilege id="45"/>
+
+  <!-- Supported media types from which the executable can run -->
+  <mediatypes>
+    <harddisk/>
+    <network/>
+    <livepackage/>
+    <mu/>
+    <ram/>
+    <svod/>
+  </mediatypes>
+
+  <!-- Use raw and unencrypted image format -->
+  <format>
+    <raw/>
+    <unencrypted/>
+  </format>
+</xex>

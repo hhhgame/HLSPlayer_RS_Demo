@@ -1,0 +1,212 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="LightBackgroundBrushes.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+
+    <!-- ////////////////////////////////////////////////// -->
+    <!-- System Fonts -->
+    <FontFamily x:Key="XboxFontFamilyDefault">Xbox JK</FontFamily>
+    <FontFamily x:Key="XboxFontFamilyRegular">Segoe Xbox Regular</FontFamily>
+    <FontFamily x:Key="XboxFontFamilyBlack">Segoe Xbox Black</FontFamily>
+    <FontFamily x:Key="XboxFontFamilyBold">Segoe Xbox Bold</FontFamily>
+    <FontFamily x:Key="XboxFontFamilyLight">Segoe Xbox Light</FontFamily>
+    <FontFamily x:Key="XboxFontFamilySemibold">Segoe Xbox Semibold</FontFamily>
+    <FontFamily x:Key="XboxFontFamilySemilight">Segoe Xbox Semilight</FontFamily>
+
+    <!-- ////////////////////////////////////////////////// -->
+    <!-- Font Sizes  -->
+    <sys:Double x:Key="XboxFontSizeDefault">21.333</sys:Double>
+
+    <!-- Page Sizes -->
+    <sys:Double x:Key="XboxFontSizePageTitle">42.667</sys:Double>
+    <sys:Double x:Key="XboxFontSizePageSubtitle">21.333</sys:Double>
+
+    <!-- Tile Sizes -->
+    <sys:Double x:Key="XboxFontSizeTileTitle">24</sys:Double>
+    <sys:Double x:Key="XboxFontSizeTileSubtitle">21.333</sys:Double>
+
+    <!-- Action Tile Sizes -->
+    <sys:Double x:Key="XboxFontSizeTileAction">28</sys:Double>
+
+    <!-- Filter Button Sizes -->
+    <sys:Double x:Key="XboxFontSizeFilterButtonTitle">18.667</sys:Double>
+    <sys:Double x:Key="XboxFontSizeFilterButtonSelection">29.333</sys:Double>
+
+    <!-- Long List Item Sizes -->
+    <sys:Double x:Key="XboxFontSizeLongListItemTitle">21.333</sys:Double>
+    <sys:Double x:Key="XboxFontSizeLongListItemSubtitle">18.667</sys:Double>
+
+    <!-- Continuous List Sizes -->
+    <sys:Double x:Key="XboxFontSizeContinuousListTitle">29.333</sys:Double>
+
+    <!-- Details Pages Sizes-->
+    <sys:Double x:Key="XboxFontSizeBodyContentHeader">21.333</sys:Double>
+    <sys:Double x:Key="XboxFontSizeBodyContentSmall">18.666</sys:Double>
+    <sys:Double x:Key="XboxFontSizeBodyContentNormal">21.333</sys:Double>
+    <sys:Double x:Key="XboxFontSizeBodyContentLarge">26.666</sys:Double>
+
+    <!-- Settings Page Sizes-->
+    <sys:Double x:Key="XboxFontSizeSettingsPageHeader">28</sys:Double>
+    <sys:Double x:Key="XboxFontSizeSettingsPageText">28</sys:Double>
+
+    <!-- Modal Sizes -->
+    <sys:Double x:Key="XboxFontSizeModalInstruction">26.666</sys:Double>
+
+    <!-- Page Level -->
+    <Style x:Key="PageTitleStyle" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="{StaticResource XboxFontFamilyLight}" />
+        <Setter Property="Foreground" Value="{StaticResource ForegroundBrush}" />
+        <Setter Property="FontSize" Value="{StaticResource XboxFontSizePageTitle}"/>
+    </Style>
+
+    <Style x:Key="PageSubtitleStyle" TargetType="TextBlock" >
+        <Setter Property="FontFamily" Value="{StaticResource XboxFontFamilyDefault}" />
+        <Setter Property="TextOptions.TextHintingMode" Value="Animated" />
+        <Setter Property="FontSize" Value="{StaticResource XboxFontSizePageSubtitle}" />
+        <Setter Property="Foreground" Value="{StaticResource SubtitleBrush}" />
+    </Style>
+
+    <!-- Tiles -->
+    <Style x:Key="ImageTileTitleStyle" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="{StaticResource XboxFontFamilyDefault}" />
+        <Setter Property="TextOptions.TextHintingMode" Value="Animated" />
+        <Setter Property="FontSize" Value="{StaticResource XboxFontSizeTileSubtitle}" />
+        <Setter Property="Foreground" Value="{StaticResource TileForegroundBrush}" />
+        <Setter Property="LineStackingStrategy" Value="BlockLineHeight" />
+        <Setter Property="LineHeight" Value="{StaticResource XboxFontSizeTileSubtitle}" />
+        <Setter Property="TextWrapping" Value="Wrap"/>
+    </Style>
+
+    <Style x:Key="ImageTileSubtitleStyle" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="{StaticResource XboxFontFamilyDefault}" />
+        <Setter Property="TextOptions.TextHintingMode" Value="Animated" />
+        <Setter Property="FontSize" Value="{StaticResource XboxFontSizeTileSubtitle}" />
+        <Setter Property="Foreground" Value="{StaticResource SubtitleBrush}" />
+        <Setter Property="LineStackingStrategy" Value="BlockLineHeight" />
+        <Setter Property="LineHeight" Value="{StaticResource XboxFontSizeTileSubtitle}" />
+        <Setter Property="TextWrapping" Value="Wrap"/>
+    </Style>
+
+    <Style x:Key="HeroTileTitleStyle" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="{StaticResource XboxFontFamilyDefault}" />
+        <Setter Property="TextOptions.TextHintingMode" Value="Animated" />
+        <Setter Property="FontSize" Value="{StaticResource XboxFontSizeTileTitle}" />
+        <Setter Property="Foreground" Value="{StaticResource TileForegroundBrush}" />
+        <Setter Property="LineStackingStrategy" Value="BlockLineHeight" />
+        <Setter Property="LineHeight" Value="{StaticResource XboxFontSizeTileTitle}" />
+        <Setter Property="TextWrapping" Value="Wrap"/>
+    </Style>
+
+    <Style x:Key="HeroTileSubtitleStyle" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="{StaticResource XboxFontFamilyDefault}" />
+        <Setter Property="TextOptions.TextHintingMode" Value="Animated" />
+        <Setter Property="FontSize" Value="{StaticResource XboxFontSizeTileSubtitle}" />
+        <Setter Property="Foreground" Value="{StaticResource SubtitleBrush}" />
+        <Setter Property="LineStackingStrategy" Value="BlockLineHeight" />
+        <Setter Property="LineHeight" Value="{StaticResource XboxFontSizeTileSubtitle}" />
+        <Setter Property="TextWrapping" Value="Wrap"/>
+    </Style>
+
+    <!-- Tile Action Buttons -->
+    <Style x:Key="ActionTileTextStyle" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="{StaticResource XboxFontFamilyDefault}" />
+        <Setter Property="FontSize" Value="{StaticResource XboxFontSizeDefault}" />
+        <Setter Property="Foreground" Value="{StaticResource TileForegroundBrush}" />
+    </Style>
+
+    <!-- Filter Buttons -->
+    <Style x:Key="FilterButtonTitleStyle" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="{StaticResource XboxFontFamilyDefault}"/>
+        <Setter Property="TextOptions.TextHintingMode" Value="Animated" />
+        <Setter Property="FontSize" Value="{StaticResource XboxFontSizeFilterButtonTitle}" />
+        <Setter Property="Foreground" Value="{StaticResource TileForegroundBrush}" />
+    </Style>
+
+    <Style x:Key="FilterButtonSelectionStyle" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="{StaticResource XboxFontFamilyLight}" />
+        <Setter Property="FontSize" Value="{StaticResource XboxFontSizeFilterButtonSelection}" />
+        <Setter Property="Foreground" Value="{StaticResource TileForegroundBrush}" />
+    </Style>
+
+    <!-- Long List Item Template -->
+    <Style x:Key="LongListItemTitleStyle" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="{StaticResource XboxFontFamilyDefault}" />
+        <Setter Property="TextOptions.TextHintingMode" Value="Animated" />
+        <Setter Property="FontSize" Value="{StaticResource XboxFontSizeLongListItemTitle}" />
+        <Setter Property="Foreground" Value="{StaticResource ForegroundBrush}" />
+        <Setter Property="LineHeight" Value="{StaticResource XboxFontSizeLongListItemTitle}"/>
+        <Setter Property="LineStackingStrategy" Value="BlockLineHeight"/>
+    </Style>
+
+    <Style x:Key="LongListItemSubtitleStyle" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="{StaticResource XboxFontFamilyDefault}" />
+        <Setter Property="TextOptions.TextHintingMode" Value="Animated" />
+        <Setter Property="FontSize" Value="{StaticResource XboxFontSizeLongListItemSubtitle}" />
+        <Setter Property="Foreground" Value="{StaticResource ForegroundBrush}" />
+        <Setter Property="LineStackingStrategy" Value="BlockLineHeight"/>
+        <Setter Property="LineHeight" Value="{StaticResource XboxFontSizeLongListItemSubtitle}"/>
+    </Style>
+
+    <!-- Continuous List -->
+    <Style x:Key="LongListTitleStyle" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="{StaticResource XboxFontFamilyLight}" />
+        <Setter Property="FontSize" Value="{StaticResource XboxFontSizeContinuousListTitle}" />
+        <Setter Property="Foreground" Value="{StaticResource ForegroundBrush}" />
+    </Style>
+
+    <!-- Generic Content -->
+    <Style x:Key="BodyContentHeaderTextStyle" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="{StaticResource XboxFontFamilyDefault}" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="TextOptions.TextHintingMode" Value="Animated" />
+        <Setter Property="FontSize" Value="{StaticResource XboxFontSizeBodyContentHeader}" />
+        <Setter Property="Foreground" Value="{StaticResource PrimaryBodyContentTextBrush}" />
+    </Style>
+
+    <Style x:Key="BodyContentSmallTextStyle" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="{StaticResource XboxFontFamilyDefault}" />
+        <Setter Property="TextOptions.TextHintingMode" Value="Animated" />
+        <Setter Property="FontSize" Value="{StaticResource XboxFontSizeBodyContentSmall}" />
+        <Setter Property="Foreground" Value="{StaticResource PrimaryBodyContentTextBrush}" />
+    </Style>
+
+    <Style x:Key="BodyContentNormalTextStyle" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="{StaticResource XboxFontFamilyDefault}" />
+        <Setter Property="TextOptions.TextHintingMode" Value="Animated" />
+        <Setter Property="FontSize" Value="{StaticResource XboxFontSizeBodyContentNormal}" />
+        <Setter Property="Foreground" Value="{StaticResource PrimaryBodyContentTextBrush}" />
+    </Style>
+
+    <Style x:Key="BodySecondaryContentNormalTextStyle" TargetType="TextBlock" BasedOn="{StaticResource BodyContentNormalTextStyle}">
+        <Setter Property="Foreground" Value="{StaticResource SecondaryBodyContentTextBrush}" />
+    </Style>
+
+    <Style x:Key="BodyContentLargeTextStyle" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="{StaticResource XboxFontFamilyLight}" />
+        <Setter Property="TextOptions.TextHintingMode" Value="Animated" />
+        <Setter Property="FontSize" Value="{StaticResource XboxFontSizeBodyContentLarge}" />
+        <Setter Property="Foreground" Value="{StaticResource PrimaryBodyContentTextBrush}" />
+    </Style>
+
+    <!-- Settings Pages -->
+    <Style x:Key="SettingsPageHeaderStyle" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="{StaticResource XboxFontFamilyLight}" />
+        <Setter Property="FontSize" Value="{StaticResource XboxFontSizeSettingsPageHeader}" />
+        <Setter Property="Foreground" Value="{StaticResource ForegroundBrush}" />
+    </Style>
+
+    <Style x:Key="SettingsPageTextStyle" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="{StaticResource XboxFontFamilyLight}" />
+        <Setter Property="FontSize" Value="{StaticResource XboxFontSizeSettingsPageHeader}" />
+        <Setter Property="Foreground" Value="{StaticResource SubtitleBrush}" />
+    </Style>
+
+    <!-- Modal Dialog -->
+    <Style x:Key="ModalDialogInstructionStyle" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="{StaticResource XboxFontFamilyLight}" />
+        <Setter Property="FontSize" Value="{StaticResource XboxFontSizeModalInstruction}" />
+        <Setter Property="Foreground" Value="{StaticResource SubtitleBrush}" />
+    </Style>
+</ResourceDictionary>

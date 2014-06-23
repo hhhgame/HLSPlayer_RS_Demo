@@ -1,0 +1,14 @@
+﻿Build started 6/23/2014 4:28:51 PM.
+     1>Project "D:\RandyWang\HLSPlayer_RS_Demo\HLSPlayer_RS_Demo\HLSPlayer_RS_Demo\HLSPlayer_RS_Demo.vcxproj" on node 2 (clean target(s)).
+     1>CoreClean:
+         Directory "Debug\NGenOutput" doesn't exist. Skipping.
+         Removing directory "D:\RandyWang\HLSPlayer_RS_Demo\HLSPlayer_RS_Demo\HLSPlayer_RS_Demo\Debug\Deploy\".
+         Directory "D:\RandyWang\HLSPlayer_RS_Demo\HLSPlayer_RS_Demo\HLSPlayer_RS_Demo\Debug\Supplement\" doesn't exist. Skipping.
+         Removing directory "D:\RandyWang\HLSPlayer_RS_Demo\HLSPlayer_RS_Demo\HLSPlayer_RS_Demo\Debug\".
+       CoreCppClean:
+         Creating directory "Debug\".
+     1>Done Building Project "D:\RandyWang\HLSPlayer_RS_Demo\HLSPlayer_RS_Demo\HLSPlayer_RS_Demo\HLSPlayer_RS_Demo.vcxproj" (clean target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.10

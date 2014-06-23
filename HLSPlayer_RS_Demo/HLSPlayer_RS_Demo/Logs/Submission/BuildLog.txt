@@ -1,0 +1,14 @@
+﻿Build started 2014/6/23 14:23:01.
+     1>Project "D:\RandyWang\HLSPlayer_RS_Demo\HLSPlayer_RS_Demo\HLSPlayer_RS_Demo\HLSPlayer_RS_Demo.vcxproj" on node 2 (clean target(s)).
+     1>CoreClean:
+         Removing directory "Submission\NGenOutput".
+         Removing directory "D:\RandyWang\HLSPlayer_RS_Demo\HLSPlayer_RS_Demo\HLSPlayer_RS_Demo\Submission\Deploy\".
+         Removing directory "D:\RandyWang\HLSPlayer_RS_Demo\HLSPlayer_RS_Demo\HLSPlayer_RS_Demo\Submission\Supplement\".
+         Removing directory "D:\RandyWang\HLSPlayer_RS_Demo\HLSPlayer_RS_Demo\HLSPlayer_RS_Demo\Submission\".
+       CoreCppClean:
+         Creating directory "Submission\".
+     1>Done Building Project "D:\RandyWang\HLSPlayer_RS_Demo\HLSPlayer_RS_Demo\HLSPlayer_RS_Demo\HLSPlayer_RS_Demo.vcxproj" (clean target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.10

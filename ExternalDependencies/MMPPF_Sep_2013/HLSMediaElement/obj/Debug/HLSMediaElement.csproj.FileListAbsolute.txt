@@ -1,0 +1,143 @@
+E:\work\sourcecode\Gaiam 360\Gaiam 360\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.DebugStrings.resources
+E:\work\sourcecode\Gaiam 360\Gaiam 360\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.da-dk.resources
+E:\work\sourcecode\Gaiam 360\Gaiam 360\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.de-de.resources
+E:\work\sourcecode\Gaiam 360\Gaiam 360\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.en-us.resources
+E:\work\sourcecode\Gaiam 360\Gaiam 360\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.es-es.resources
+E:\work\sourcecode\Gaiam 360\Gaiam 360\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.es-mx.resources
+E:\work\sourcecode\Gaiam 360\Gaiam 360\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.fi-fi.resources
+E:\work\sourcecode\Gaiam 360\Gaiam 360\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.fr-ca.resources
+E:\work\sourcecode\Gaiam 360\Gaiam 360\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.fr-fr.resources
+E:\work\sourcecode\Gaiam 360\Gaiam 360\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.it-it.resources
+E:\work\sourcecode\Gaiam 360\Gaiam 360\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.ja-jp.resources
+E:\work\sourcecode\Gaiam 360\Gaiam 360\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.ko-kr.resources
+E:\work\sourcecode\Gaiam 360\Gaiam 360\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.nb-no.resources
+E:\work\sourcecode\Gaiam 360\Gaiam 360\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.nl-nl.resources
+E:\work\sourcecode\Gaiam 360\Gaiam 360\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.pl-pl.resources
+E:\work\sourcecode\Gaiam 360\Gaiam 360\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.pt-br.resources
+E:\work\sourcecode\Gaiam 360\Gaiam 360\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.ru-ru.resources
+E:\work\sourcecode\Gaiam 360\Gaiam 360\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.sv-se.resources
+E:\work\sourcecode\Gaiam 360\Gaiam 360\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.zh-hk.resources
+E:\work\sourcecode\Gaiam 360\Gaiam 360\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Silverlight.Samples.HLS.dll
+E:\work\sourcecode\Gaiam 360\Gaiam 360\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Silverlight.Samples.HLS.pdb
+E:\work\sourcecode\Gaiam 360\Gaiam 360\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\HLSMSS_XBOX.dll
+E:\work\sourcecode\Gaiam 360\Gaiam 360\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Core.dll
+E:\work\sourcecode\Gaiam 360\Gaiam 360\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.dll
+E:\work\sourcecode\Gaiam 360\Gaiam 360\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.RuntimeHelpers.dll
+E:\work\sourcecode\Gaiam 360\Gaiam 360\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Services.dll
+E:\work\sourcecode\Gaiam 360\Gaiam 360\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Storage.dll
+E:\work\sourcecode\Gaiam 360\Gaiam 360\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\MMPPF.Utilities.Xbox.dll
+E:\work\sourcecode\Gaiam 360\Gaiam 360\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\System.Windows.Controls.Navigation.dll
+E:\work\sourcecode\Gaiam 360\Gaiam 360\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Web.Media.SmoothStreaming.dll
+E:\work\sourcecode\Gaiam 360\Gaiam 360\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\HLSMSS_XBOX.pdb
+E:\work\sourcecode\Gaiam 360\Gaiam 360\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\obj\Debug\HLSMediaElementControl.g.cs
+E:\work\sourcecode\Gaiam 360\Gaiam 360\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\obj\Debug\Silverlight.Samples.HLS.g.resources
+E:\work\sourcecode\Gaiam 360\Gaiam 360\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\obj\Debug\Silverlight.Samples.HLS.dll
+E:\work\sourcecode\Gaiam 360\Gaiam 360\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\obj\Debug\Silverlight.Samples.HLS.pdb
+E:\work\sourcecode\Gaiam 360\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.DebugStrings.resources
+E:\work\sourcecode\Gaiam 360\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.da-dk.resources
+E:\work\sourcecode\Gaiam 360\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.de-de.resources
+E:\work\sourcecode\Gaiam 360\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.en-us.resources
+E:\work\sourcecode\Gaiam 360\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.es-es.resources
+E:\work\sourcecode\Gaiam 360\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.es-mx.resources
+E:\work\sourcecode\Gaiam 360\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.fi-fi.resources
+E:\work\sourcecode\Gaiam 360\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.fr-ca.resources
+E:\work\sourcecode\Gaiam 360\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.fr-fr.resources
+E:\work\sourcecode\Gaiam 360\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.it-it.resources
+E:\work\sourcecode\Gaiam 360\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.ja-jp.resources
+E:\work\sourcecode\Gaiam 360\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.ko-kr.resources
+E:\work\sourcecode\Gaiam 360\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.nb-no.resources
+E:\work\sourcecode\Gaiam 360\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.nl-nl.resources
+E:\work\sourcecode\Gaiam 360\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.pl-pl.resources
+E:\work\sourcecode\Gaiam 360\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.pt-br.resources
+E:\work\sourcecode\Gaiam 360\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.ru-ru.resources
+E:\work\sourcecode\Gaiam 360\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.sv-se.resources
+E:\work\sourcecode\Gaiam 360\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.zh-hk.resources
+E:\work\sourcecode\Gaiam 360\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Silverlight.Samples.HLS.dll
+E:\work\sourcecode\Gaiam 360\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Silverlight.Samples.HLS.pdb
+E:\work\sourcecode\Gaiam 360\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\HLSMSS_XBOX.dll
+E:\work\sourcecode\Gaiam 360\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Core.dll
+E:\work\sourcecode\Gaiam 360\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.dll
+E:\work\sourcecode\Gaiam 360\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.RuntimeHelpers.dll
+E:\work\sourcecode\Gaiam 360\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Services.dll
+E:\work\sourcecode\Gaiam 360\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Storage.dll
+E:\work\sourcecode\Gaiam 360\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\MMPPF.Utilities.Xbox.dll
+E:\work\sourcecode\Gaiam 360\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\System.Windows.Controls.Navigation.dll
+E:\work\sourcecode\Gaiam 360\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Web.Media.SmoothStreaming.dll
+E:\work\sourcecode\Gaiam 360\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\HLSMSS_XBOX.pdb
+E:\work\sourcecode\Gaiam 360\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\obj\Debug\HLSMediaElementControl.g.cs
+E:\work\sourcecode\Gaiam 360\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\obj\Debug\Silverlight.Samples.HLS.g.resources
+E:\work\sourcecode\Gaiam 360\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\obj\Debug\Silverlight.Samples.HLS.dll
+E:\work\sourcecode\Gaiam 360\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\obj\Debug\Silverlight.Samples.HLS.pdb
+E:\work\sourcecode\Gaiam 360\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\obj\Debug\HLSMediaElement.csprojResolveAssemblyReference.cache
+E:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.DebugStrings.resources
+E:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.da-dk.resources
+E:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.de-de.resources
+E:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.en-us.resources
+E:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.es-es.resources
+E:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.es-mx.resources
+E:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.fi-fi.resources
+E:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.fr-ca.resources
+E:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.fr-fr.resources
+E:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.it-it.resources
+E:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.ja-jp.resources
+E:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.ko-kr.resources
+E:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.nb-no.resources
+E:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.nl-nl.resources
+E:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.pl-pl.resources
+E:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.pt-br.resources
+E:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.ru-ru.resources
+E:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.sv-se.resources
+E:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.zh-hk.resources
+E:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Silverlight.Samples.HLS.dll
+E:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Silverlight.Samples.HLS.pdb
+E:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\HLSMSS_XBOX.dll
+E:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Core.dll
+E:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.dll
+E:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.RuntimeHelpers.dll
+E:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Services.dll
+E:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Storage.dll
+E:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\MMPPF.Utilities.Xbox.dll
+E:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\System.Windows.Controls.Navigation.dll
+E:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Web.Media.SmoothStreaming.dll
+E:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\HLSMSS_XBOX.pdb
+E:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\obj\Debug\HLSMediaElement.csprojResolveAssemblyReference.cache
+E:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\obj\Debug\HLSMediaElementControl.g.cs
+E:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\obj\Debug\Silverlight.Samples.HLS.g.resources
+E:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\obj\Debug\Silverlight.Samples.HLS.dll
+E:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\obj\Debug\Silverlight.Samples.HLS.pdb
+H:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.DebugStrings.resources
+H:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.da-dk.resources
+H:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.de-de.resources
+H:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.en-us.resources
+H:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.es-es.resources
+H:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.es-mx.resources
+H:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.fi-fi.resources
+H:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.fr-ca.resources
+H:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.fr-fr.resources
+H:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.it-it.resources
+H:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.ja-jp.resources
+H:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.ko-kr.resources
+H:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.nb-no.resources
+H:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.nl-nl.resources
+H:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.pl-pl.resources
+H:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.pt-br.resources
+H:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.ru-ru.resources
+H:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.sv-se.resources
+H:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Strings.zh-hk.resources
+H:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Silverlight.Samples.HLS.dll
+H:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Silverlight.Samples.HLS.pdb
+H:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\HLSMSS_XBOX.dll
+H:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Core.dll
+H:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.dll
+H:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.RuntimeHelpers.dll
+H:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Services.dll
+H:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Xbox.Storage.dll
+H:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\MMPPF.Utilities.Xbox.dll
+H:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\System.Windows.Controls.Navigation.dll
+H:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\Microsoft.Web.Media.SmoothStreaming.dll
+H:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\Bin\Debug\HLSMSS_XBOX.pdb
+H:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\obj\Debug\HLSMediaElement.csprojResolveAssemblyReference.cache
+H:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\obj\Debug\HLSMediaElementControl.g.cs
+H:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\obj\Debug\Silverlight.Samples.HLS.g.resources
+H:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\obj\Debug\Silverlight.Samples.HLS.dll
+H:\work\sourcecode\Gaiam_XBOX\04_Dev\ExternalDependencies\MMPPF_Sep_2013\HLSMediaElement\obj\Debug\Silverlight.Samples.HLS.pdb

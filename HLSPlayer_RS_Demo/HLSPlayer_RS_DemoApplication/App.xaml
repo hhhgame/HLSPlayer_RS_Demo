@@ -1,0 +1,17 @@
+﻿<Application xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="HLSPlayer_RS_DemoApplication.App"
+             >
+    <Application.Resources>
+      <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!-- When using a dark background use DarkBackgroundBrushes.xaml instead of LightBackgroundBrushes.xaml -->
+                <!-- NOTE: You will need to update TextStyles.xaml and ButtonStyles.xaml to reference the correct
+                     brushes ResourceDictionary as well. -->
+                <ResourceDictionary Source="Styles/TextStyles.xaml"/>
+                <ResourceDictionary Source="Styles/ButtonStyles.xaml" />
+                <ResourceDictionary Source="Styles/LightBackgroundBrushes.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

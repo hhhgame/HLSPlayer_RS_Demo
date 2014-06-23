@@ -1,0 +1,28 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ImageBrush x:Key="ApplicationBackgroundBrush" ImageSource="/Images/ApplicationBackgroundDark.jpg"/>
+
+    <ImageBrush x:Key="ApplicationLogoBrush" ImageSource="/Images/AppLogoBackgroundDark.png"/>
+
+    <SolidColorBrush x:Key="PageBackgroundBrush" Color="#00141414"/>
+    
+    <SolidColorBrush x:Key="ForegroundBrush" Color="#FFCCCCCC" />
+
+    <SolidColorBrush x:Key="SubtitleBrush" Color="#FF9A9797" />
+
+    <SolidColorBrush x:Key="ActionButtonBackgroundBrush" Color="#FF76B900" />
+
+    <SolidColorBrush x:Key="ActionButtonMouseOverBackgroundBrush" Color="#FF555555" />
+
+    <SolidColorBrush x:Key="ActionButtonSecondaryBackgroundBrush" Color="#FF515151" />
+
+    <SolidColorBrush x:Key="ActionButtonSecondaryMouseOverBackgroundBrush" Color="#FFAEAEAE" />
+
+    <SolidColorBrush x:Key="TileForegroundBrush" Color="#FFEBEBEB" />
+
+    <SolidColorBrush x:Key="PrimaryBodyContentTextBrush" Color="#FFCCCCCC" />
+
+    <SolidColorBrush x:Key="SecondaryBodyContentTextBrush" Color="#FF979797" />
+</ResourceDictionary>

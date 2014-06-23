@@ -1,0 +1,388 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib"
+                    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                    mc:Ignorable="d">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="TextStyles.xaml"/>
+        <ResourceDictionary Source="LightBackgroundBrushes.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+
+    <CubicEase x:Key="CubicEaseOut" EasingMode="EaseOut"/>
+    <ExponentialEase x:Key="ExponentialEaseIn" EasingMode="EaseIn" Exponent="3"/>
+
+    <Style x:Key="CircleButtonBaseStyle" TargetType="Button">
+        <Setter Property="Width" Value="40"/>
+        <Setter Property="Height" Value="40"/>
+        <Setter Property="FontFamily" Value="{StaticResource XboxFontFamilyDefault}"/>
+        <Setter Property="FontSize" Value="21"/>
+        <Setter Property="TextOptions.TextHintingMode" Value="Animated"/>
+        <Setter Property="Foreground" Value="{StaticResource ForegroundBrush}"/>
+        <Setter Property="IsMagnetic" Value="True"/>
+        <Setter Property="Padding" Value="0,0,0,0"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid x:Name="ControlRoot" Background="Transparent">
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualStateGroup.Transitions>
+                                    <VisualTransition From="Pressed" To="Normal">
+                                        <Storyboard>
+                                            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="outerRing">
+                                                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="1.2" EasingFunction="{StaticResource CubicEaseOut}"/>
+                                                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1.6" EasingFunction="{StaticResource ExponentialEaseIn}" />
+                                            </DoubleAnimationUsingKeyFrames>
+                                            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="outerRing">
+                                                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="1.2" EasingFunction="{StaticResource CubicEaseOut}"/>
+                                                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1.6" EasingFunction="{StaticResource ExponentialEaseIn}" />
+                                            </DoubleAnimationUsingKeyFrames>
+
+                                            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="outerRing">
+                                                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="1"/>
+                                                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+                                            </DoubleAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualTransition>
+
+                                </VisualStateGroup.Transitions>
+                                <VisualState x:Name="MouseOver">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.3" To="1.4" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="outerRing">
+                                            <DoubleAnimation.EasingFunction>
+                                                <CubicEase EasingMode="EaseOut"/>
+                                            </DoubleAnimation.EasingFunction>
+                                        </DoubleAnimation>
+                                        <DoubleAnimation Duration="0:0:0.3" To="1.4" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="outerRing">
+                                            <DoubleAnimation.EasingFunction>
+                                                <CubicEase EasingMode="EaseOut"/>
+                                            </DoubleAnimation.EasingFunction>
+                                        </DoubleAnimation>
+                                        <DoubleAnimation Duration="0:0:0.367" To="0.3" Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="outerRing"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Pressed">
+                                    <Storyboard>
+                                        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="outerRing">
+                                            <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="1.2" EasingFunction="{StaticResource CubicEaseOut}"/>
+                                        </DoubleAnimationUsingKeyFrames>
+                                        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="outerRing">
+                                            <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="1.2" EasingFunction="{StaticResource CubicEaseOut}"/>
+                                        </DoubleAnimationUsingKeyFrames>
+
+                                        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="outerRing">
+                                            <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="1"/>
+                                        </DoubleAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Disabled">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.3" To="0.4" Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ControlRoot"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Normal"/>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="FocusStates">
+                                <VisualState x:Name="Focused"/>
+                                <VisualState x:Name="Unfocused"/>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                        <Path x:Name="outerRing"
+                                    Data="M 4,30 C4,15.64 15.64,4 30,4 44.35,4 56,15.64 56,30 56,44.35 44.35,56 30,56 15.64,56 4,44.35 4,30 zM 0,30 C0,46.56 13.43,60 30,60 46.56,60 60,46.56 60,30 60,13.43 46.56,0 30,0 13.43,0 0,13.43 0,30 z"
+                                    Fill="{TemplateBinding Foreground}"
+                                    Stretch="Uniform"
+                                    UseLayoutRounding="False" RenderTransformOrigin="0.5,0.5" >
+                            <Path.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform/>
+                                    <SkewTransform/>
+                                    <RotateTransform/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </Path.RenderTransform>
+                        </Path>
+                        <ContentPresenter x:Name="contentControl"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                Content="{TemplateBinding Content}"
+                                ContentTemplate="{TemplateBinding ContentTemplate}"
+                                TextOptions.TextHintingMode="Animated"
+                                Margin="{TemplateBinding Padding}"/>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="Button" x:Key="BackButtonStyle" BasedOn="{StaticResource CircleButtonBaseStyle}">
+        <Setter Property="ContentTemplate">
+            <Setter.Value>
+                <DataTemplate>
+                    <Grid x:Name="ControlRoot" Background="Transparent">
+                        <Path Data="F1M8.2224,0L0,7.755L8.1844,15.476L13.1814,15.476L7.0754,9.716L20.9294,9.716L20.9294,5.796L7.0754,5.796L13.2184,0z"
+                            Fill="{StaticResource ForegroundBrush}"
+                            Width="21"
+                            Height="15"
+                            VerticalAlignment="Center"
+                            HorizontalAlignment="Center" />
+                    </Grid>
+                </DataTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="Button" x:Key="LogoButtonStyle">
+        <Setter Property="Width" Value="130"/>
+        <Setter Property="Height" Value="29"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid x:Name="ControlRoot" Background="{StaticResource ApplicationLogoBrush}"/>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="Button" x:Key="HomeButtonStyle" BasedOn="{StaticResource CircleButtonBaseStyle}">
+        <Setter Property="ContentTemplate">
+            <Setter.Value>
+                <DataTemplate>
+                    <Grid x:Name="ControlRoot" Background="Transparent">
+
+                        <Path Data="M 18.72,5.26 C18.72,5.26 23.06,0.48 23.06,0.48 23.06,0.48 -0.28,0.48 -0.28,0.48 -0.28,0.48 -0.28,5.26 -0.28,5.26 -0.28,5.26 18.72,5.26 18.72,5.26 zM 10.90,23.18 C14.99,27.27 21.62,27.27 25.71,23.18 29.80,19.09 29.80,12.46 25.71,8.37 25.71,8.37 25.67,8.34 25.67,8.34 25.67,8.34 22.59,11.42 22.59,11.42 22.59,11.42 22.63,11.45 22.63,11.45 25.02,13.84 25.02,17.72 22.63,20.11 20.25,22.49 16.36,22.49 13.98,20.11 13.98,20.11 13.97,20.11 13.94,20.07 13.94,20.07 7.33,13.43 7.33,13.43 7.33,13.43 15.25,13.68 15.25,13.68 15.25,13.68 11.28,9.69 11.28,9.69 11.28,9.69 0.19,9.35 0.19,9.35 0.19,9.35 0.49,20.48 0.49,20.48 0.49,20.48 4.46,24.47 4.46,24.47 4.46,24.47 4.25,16.49 4.25,16.49 4.25,16.49 10.86,23.15 10.87,23.14 10.87,23.14 10.90,23.18 10.90,23.18 z"
+                            Fill="{StaticResource ForegroundBrush}"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            Height="21"
+                            Width="23"
+                            Stretch="Fill"
+                            UseLayoutRounding="False"/>
+                    </Grid>
+                </DataTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="Button" x:Key="SettingsButtonStyle" BasedOn="{StaticResource CircleButtonBaseStyle}">
+        <Setter Property="ContentTemplate">
+            <Setter.Value>
+                <DataTemplate>
+                    <Grid x:Name="ControlRoot" Background="Transparent">
+                        <Path Data="M8.0342169,6.6284127 C8.5210152,6.6397085 8.9849491,6.9092512 9.2186985,7.374001 C9.5626993,8.0460014 9.297699,8.8740015 8.6286993,9.217001 C7.9546986,9.5640011 7.1296983,9.2970009 6.7846985,8.6240015 C6.4396982,7.9480014 6.7046986,7.1270013 7.3756986,6.7790012 C7.5869484,6.6715012 7.8129449,6.6232786 8.0342169,6.6284127 z M7.9080982,4.2468266 C7.3646894,4.2597866 6.8158121,4.3923435 6.2999997,4.6569996 C4.4660001,5.6019998 3.7410002,7.8529997 4.6830001,9.6929998 C5.6199999,11.532001 7.8729997,12.254001 9.7060003,11.314 C11.542,10.371 12.264999,8.1190004 11.323999,6.2819996 C10.649812,4.9616561 9.2968102,4.213707 7.9080982,4.2468266 z M7.0599999,0 L7.9489999,1.983 C8.4609995,1.983 8.9689999,2.049 9.46,2.177 L10.88,0.41300011 L13.154,1.8169999 L12.315,3.8570001 C12.613,4.1739998 12.878,4.5279999 13.106999,4.915 L15.382,4.671 L15.999999,7.2719998 L13.974,8.1170006 C13.965,8.5679998 13.906,9.0120001 13.801,9.4460001 L15.562,10.869 L14.162,13.147 L12.17,12.326 C11.849,12.642 11.481,12.923 11.078,13.168 L11.313,15.379001 L8.7130003,16 L7.9059997,14.051001 C7.4249997,14.046 6.9519997,13.981 6.487,13.867001 L5.1259999,15.559 L2.852,14.158 L3.6400001,12.238 C3.306,11.894 3.0140002,11.505 2.7650001,11.075 L0.62100005,11.304 L0,8.7010002 L1.9249998,7.8999996 C1.934,7.414 2.006,6.9329996 2.1290002,6.4679999 L0.44099998,5.1039996 L1.8429998,2.826 L3.8050001,3.635 C4.0969996,3.358 4.4229999,3.108 4.7799997,2.8870001 L4.4769998,0.69300002 z"
+                            Fill="{StaticResource ForegroundBrush}"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            Height="16"
+                            Width="16"
+                            Stretch="Fill"
+                            UseLayoutRounding="False"/>
+                    </Grid>
+                </DataTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="Button" x:Key="CloseButtonStyle" BasedOn="{StaticResource CircleButtonBaseStyle}">
+        <Setter Property="ContentTemplate">
+            <Setter.Value>
+                <DataTemplate>
+                    <Grid x:Name="ControlRoot" Background="Transparent">
+
+                        <Path Data="M2.3687999,0 L7.4969311,5.1338143 L12.574,0.090699933 L14.936,2.4537001 L9.8579178,7.4974184 L15.0008,12.646 L12.6288,15 L7.4873452,9.8519497 L2.375,14.9297 L0.01400009,12.5667 L5.1266584,7.4882345 L0,2.355 z"
+                            Fill="{StaticResource ForegroundBrush}"
+                            HorizontalAlignment="Center"
+                            Height="15"
+                            Stretch="Fill"
+                            UseLayoutRounding="False"
+                            VerticalAlignment="Center"
+                            Width="15"/>
+                    </Grid>
+                </DataTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="Button" x:Key="SearchButtonStyle" BasedOn="{StaticResource CircleButtonBaseStyle}">
+        <Setter Property="ContentTemplate">
+            <Setter.Value>
+                <DataTemplate>
+                    <Grid x:Name="ControlRoot" Background="Transparent">
+                        <Path Data="M9.8636856,2.0210001 C7.7546854,2.0210001 5.9276853,3.4549999 5.4216852,5.5079999 C4.8206854,7.9579997 6.3226852,10.443 8.7726851,11.048 C9.1336851,11.136001 9.5026855,11.182 9.8706856,11.182 C11.979686,11.182 13.806685,9.75 14.313685,7.697 C14.606686,6.5089998 14.544685,5.2789998 13.911685,4.2319999 C13.277685,3.1849999 12.150685,2.447 10.962686,2.155 C10.600685,2.066 10.231686,2.0210001 9.8636856,2.0210001 z M9.8636856,0 C10.393685,0 10.926685,0.063999996 11.445685,0.19199994 C13.157685,0.61499995 14.602685,1.677 15.514686,3.1860001 C16.427685,4.6949997 16.697685,6.4679999 16.274685,8.1800003 C15.547684,11.137 12.913686,13.203 9.8706856,13.203 C9.3396854,13.203 8.8076859,13.138 8.2896852,13.011001 C7.9586539,12.929157 7.6396198,12.823503 7.3339562,12.696315 L7.3092203,12.685655 L2.8215401,17.219431 C2.4925404,17.551434 2.0585403,17.718433 1.6255404,17.718433 C1.1965406,17.718433 0.76854062,17.555433 0.43954062,17.230431 C-0.22045946,16.575434 -0.10045934,15.508432 0.55454063,14.847432 L4.6803565,10.673917 L4.6747518,10.666912 C3.4707537,9.1247644 2.958029,7.0663595 3.4586854,5.0249996 C4.1886854,2.066 6.8216858,0 9.8636856,0 z"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            Height="17.718"
+                            Width="16.47"
+                            Stretch="Fill"
+                            UseLayoutRounding="False"
+                            Fill="{StaticResource ForegroundBrush}"/>
+                    </Grid>
+                </DataTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="Button" x:Key="DashboardButtonStyle" BasedOn="{StaticResource CircleButtonBaseStyle}">
+        <Setter Property="ContentTemplate">
+            <Setter.Value>
+                <DataTemplate>
+                    <Grid x:Name="ControlRoot" Background="Transparent">
+                        <Path Data="F1M0.0073,6.99509999999998L0.0003,11.8591L4.7423,6.85109999999998L4.7423,17.0801C4.7423,18.0991,5.5703,18.9321,6.5953,18.9321L18.9493,18.9321L18.9493,15.1741L8.5023,15.1741L8.5023,6.86109999999998L13.1953,11.8561L13.2073,6.98609999999998L6.6353,9.99999999793388E-05z"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            Height="19"
+                            Width="19"
+                            Stretch="Fill"
+                            UseLayoutRounding="False"
+                            Fill="{StaticResource ForegroundBrush}"/>
+                    </Grid>
+                </DataTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <DataTemplate x:Key="BottomTextTemplate" >
+        <Grid Background="{StaticResource ActionButtonBackgroundBrush}">
+            <TextBlock
+                Text="{Binding}"
+                Style="{StaticResource ActionTileTextStyle}"
+                TextWrapping="Wrap"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Bottom"
+                Margin="7,1,7,2"
+                TextOptions.TextHintingMode="Animated"/>
+        </Grid>
+    </DataTemplate>
+
+    <Style TargetType="Button" x:Key="TextOnlyActionTileButtonStyle">
+        <Setter Property="FontFamily" Value="{StaticResource XboxFontFamilyDefault}" />
+        <Setter Property="FontSize" Value="{StaticResource XboxFontSizeDefault}" />
+        <Setter Property="Foreground" Value="{StaticResource TileForegroundBrush}" />
+        <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+        <Setter Property="VerticalContentAlignment" Value="Stretch" />
+        <Setter Property="TextOptions.TextHintingMode" Value="Animated"/>
+        <Setter Property="Padding" Value="0,0,0,0"/>
+        <!-- remove this if you want to set your own button content -->
+        <Setter Property="ContentTemplate" Value="{StaticResource BottomTextTemplate}" />
+        <Setter Property="Background" Value="{StaticResource ActionButtonBackgroundBrush}"/>
+    </Style>
+
+    <Style TargetType="Button" x:Key="ActionTileButtonStyle">
+        <Setter Property="FontFamily" Value="{StaticResource XboxFontFamilyDefault}" />
+        <Setter Property="FontSize" Value="{StaticResource XboxFontSizeDefault}" />
+        <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+        <Setter Property="VerticalContentAlignment" Value="Stretch" />
+        <Setter Property="Padding" Value="0,0,0,0" />
+        <Setter Property="Foreground" Value="{StaticResource TileForegroundBrush}" />
+        <Setter Property="TextOptions.TextHintingMode" Value="Animated"/>
+        <Setter Property="Background" Value="{StaticResource ActionButtonBackgroundBrush}"/>
+    </Style>
+
+    <DataTemplate x:Key="HeroTileTemplate">
+        <Grid>
+            <!-- Apply Image Binding Here -->
+            <Image />
+            <Grid VerticalAlignment="Bottom">
+                <Rectangle RenderTransformOrigin="0.5,0.5">
+                    <Rectangle.Fill>
+                        <LinearGradientBrush
+                            StartPoint="0,0.75"
+                            EndPoint="0,0">
+                            <LinearGradientBrush.GradientStops>
+                                <GradientStopCollection>
+                                    <GradientStop
+                                        Color="#66000000"
+                                        Offset="0" />
+                                    <GradientStop
+                                        Color="#00000000"
+                                        Offset="1" />
+                                </GradientStopCollection>
+                            </LinearGradientBrush.GradientStops>
+                        </LinearGradientBrush>
+                    </Rectangle.Fill>
+                </Rectangle>
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="7,7,7,4">
+                    <TextBlock Text="{Binding}" Style="{StaticResource HeroTileTitleStyle}"/>
+                    <TextBlock Text="Subtitle"  Style="{StaticResource HeroTileSubtitleStyle}"/>
+                </StackPanel>
+            </Grid>
+        </Grid>
+    </DataTemplate>
+
+    <Style TargetType="Button" x:Key="HeroTileButtonStyle">
+        <Setter Property="FontFamily" Value="{StaticResource XboxFontFamilyDefault}" />
+        <Setter Property="FontSize" Value="{StaticResource XboxFontSizeTileTitle}" />
+        <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+        <Setter Property="VerticalContentAlignment" Value="Stretch" />
+        <Setter Property="Padding" Value="0,0,0,0" />
+        <Setter Property="Foreground" Value="{StaticResource TileForegroundBrush}" />
+    </Style>
+
+    <DataTemplate x:Key="ImageTileTemplate">
+        <Grid>
+            <!-- Apply Image Binding Here -->
+            <Image />
+            <Grid VerticalAlignment="Bottom">
+                <Rectangle RenderTransformOrigin="0.5,0.5">
+                    <Rectangle.Fill>
+                        <LinearGradientBrush
+                            StartPoint="0,0.75"
+                            EndPoint="0,0">
+                            <LinearGradientBrush.GradientStops>
+                                <GradientStopCollection>
+                                    <GradientStop
+                                        Color="#66000000"
+                                        Offset="0" />
+                                    <GradientStop
+                                        Color="#00000000"
+                                        Offset="1" />
+                                </GradientStopCollection>
+                            </LinearGradientBrush.GradientStops>
+                        </LinearGradientBrush>
+                    </Rectangle.Fill>
+                </Rectangle>
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="7,7,7,4">
+                    <!-- Update Binding with Actual model properties -->
+                    <TextBlock Text="{Binding}" Style="{StaticResource ImageTileTitleStyle}"/>
+                    <TextBlock Text="{Binding Subtitle}"  Style="{StaticResource ImageTileSubtitleStyle}"/>
+                </StackPanel>
+            </Grid>
+        </Grid>
+    </DataTemplate>
+
+    <Style TargetType="Button" x:Key="ImageTileButtonStyle">
+        <Setter Property="FontFamily" Value="{StaticResource XboxFontFamilyDefault}" />
+        <Setter Property="FontSize" Value="{StaticResource XboxFontSizeTileTitle}" />
+        <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+        <Setter Property="VerticalContentAlignment" Value="Stretch" />
+        <Setter Property="Padding" Value="0,0,0,0" />
+        <Setter Property="Foreground" Value="{StaticResource TileForegroundBrush}" />
+    </Style>
+
+    <Style TargetType="Button" x:Key="FilterButtonStyle">
+        <Setter Property="FontFamily" Value="{StaticResource XboxFontFamilyDefault}" />
+        <Setter Property="FontSize" Value="{StaticResource XboxFontSizeFilterButtonTitle}" />
+        <Setter Property="HorizontalContentAlignment" Value="Left" />
+        <Setter Property="VerticalContentAlignment" Value="Bottom" />
+        <Setter Property="Padding" Value="9,9,9,3" />
+        <Setter Property="Foreground" Value="{StaticResource TileForegroundBrush}" />
+        <Setter Property="TextOptions.TextHintingMode" Value="Animated"/>
+        <Setter Property="MinWidth" Value="160"/>
+    </Style>
+
+    <Style TargetType="Button" x:Key="LongListButtonStyle">
+        <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+        <Setter Property="VerticalContentAlignment" Value="Stretch" />
+        <Setter Property="Padding" Value="0,0,0,0" />
+        <Setter Property="ContentTemplate">
+            <Setter.Value>
+
+                <DataTemplate>
+                    <Image Height="0" Width="20" d:LayoutOverrides="VerticalAlignment" />
+                </DataTemplate>
+
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+</ResourceDictionary>
